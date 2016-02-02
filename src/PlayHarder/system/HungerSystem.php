@@ -23,66 +23,7 @@ class HungerSystem {
 	}
 	public static function saturation(Player $player, $itemId) {
 		switch ($itemId) {
-			case Item::APPLE :
-				$point = 4;
-				break;
-			case Item::BAKED_POTATO :
-				$point = 5;
-				break;
-			case Item::BEETROOT :
-				$point = 1;
-				break;
-			case Item::BEETROOT_SOUP :
-				$point = 6;
-				break;
-			case Item::BREAD :
-				$point = 5;
-				break;
-			case Item::CAKE :
-			case Item::CAKE_BLOCK :
-				$point = 2;
-				break;
-			case Item::CARROT :
-			case Item::CARROT_BLOCK :
-			case Item::CARROTS :
-				$point = 3;
-				break;
-			case Item::COOKED_CHICKEN :
-			case Item::COOKED_BEEF :
-				$point = 6;
-				break;
-			case Item::COOKED_FISH :
-				$point = 5;
-				break;
-			case Item::COOKIE :
-				$point = 2;
-				break;
 			case Item::GOLDEN_APPLE :
-				$point = 4;
-				break;
-			case Item::MELON :
-				$point = 2;
-				break;
-			case Item::MUSHROOM_STEW :
-				$point = 6;
-				break;
-			case Item::POTATO :
-				$point = 1;
-				break;
-			case Item::PUMPKIN_PIE :
-				$point = 8;
-				break;
-			case Item::RAW_BEEF :
-				$point = 3;
-				break;
-			case Item::RAW_CHICKEN :
-			case Item::RAW_BEEF :
-				$point = 2;
-				break;
-			case Item::RAW_FISH :
-				$point = 2;
-				break;
-			case Item::STEAK :
 				$point = 8;
 				break;
 			default :
